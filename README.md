@@ -22,7 +22,11 @@ Hints:
 Write a serial matrix multiply program in Python. The could should use reasonable decomposition, use reasonable variable names, and should generally follow good coding standards. Important, your assignment should include your name. 
 
 The program shall count the number of each instances of each word for the set of documents, and the total of count of all words in the list
+
 The program shall use PyMP to compute the number of words in parallel
+
 The program shall time how long overall operation takes and how long the word count and file reading operations take individually
+
 The program shall include any necessary instructions to properly run the program 
+
 The assignment shall be submitted through github 
