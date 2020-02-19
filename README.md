@@ -13,7 +13,7 @@ hate, love, death, night, sleep, time, henry, hamlet, you, my, blood, poison, ma
 Once completed the repository should contain your code, a short report, and any instructions needed to run your code.
 
 Hints: 
-* Its easier to load all the files containing text before entering the processing region
+* Its easier to load all the files containing text serial before entering the parallel processing region
 * Some of the variables will need to be locked before updating, otherwise a difficult to debug race condition may occure
 * This will take multiple loops (functions would be better though), you can iterate over the list of words
 
