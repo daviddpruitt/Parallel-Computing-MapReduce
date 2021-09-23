@@ -12,6 +12,10 @@ hate, love, death, night, sleep, time, henry, hamlet, you, my, blood, poison, ma
 
 Once completed the repository should contain your code, a short report, and any instructions needed to run your code.
 
+Important note:
+You should initialize the shared global dictionary inside your parallel section, there's a bug in the
+OpenMP system that sometimes causes a program to freeze when initializing outside the parallel section.
+
 Hints: 
 * Its easier to load all the files containing text serial before entering the parallel processing region
 * Some of the variables will need to be locked before updating, otherwise a difficult to debug race condition may occure
